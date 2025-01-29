@@ -36,7 +36,7 @@
                     "name": "PrimaryButton",
                     "type": "Button",
                     "id": "204073bf-582e-48f4-a392-6eaf1e637387",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -855,7 +855,7 @@
                     "name": "Menu",
                     "type": "Button",
                     "id": "561d782c-0eab-4674-80c5-7a8eb70cf246",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -882,7 +882,7 @@
                     "name": "Primary2DAxisTouch",
                     "type": "Button",
                     "id": "4de79a39-d622-4859-8f67-791365c0b780",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -1175,7 +1175,7 @@
                 {
                     "name": "",
                     "id": "d09e2fdd-08b3-42eb-86c8-5c3a8f4a03c5",
-                    "path": "<XRController>{RightHand}/{MenuButton}",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
                     "interactions": "",
                     "processors": "",
                     "groups": "XR Usage",
