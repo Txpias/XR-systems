@@ -1727,7 +1727,7 @@
                     "name": "Tracked",
                     "type": "Button",
                     "id": "2a7ee830-cd9a-420a-84fd-c4ac3085124a",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
