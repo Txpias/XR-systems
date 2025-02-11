@@ -6,6 +6,7 @@ public class Teleportplayer : MonoBehaviour
     // Pelaajan kaksi sijaintia
     public Transform roomPosition;
     public Transform externalViewPosition;
+    
     public InputActionReference teleport;
 
     private bool isExternalView = false;
@@ -22,16 +23,15 @@ public class Teleportplayer : MonoBehaviour
 
     void SwitchPosition()
     {
-        // Vaihda pelaajan sijaintia ja rotaatiota
         if (isExternalView)
         {
-            // Siirr‰ takaisin huoneeseen
+            // Takaisin huoneeseen
             transform.position = roomPosition.position;
             transform.rotation = roomPosition.rotation;
         }
         else
         {
-            // Siirr‰ ulkopuoliseen n‰kym‰‰n
+            // Ulkopuoliseen n√§kym√§√§n
             transform.position = externalViewPosition.position;
             transform.rotation = externalViewPosition.rotation;
         }
